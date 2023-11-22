@@ -2,9 +2,9 @@ import "dotenv/config";
 import "@nomicfoundation/hardhat-toolbox";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "hardhat-tracer";
-import "@nomicfoundation/hardhat-ignition";
 
 import { HardhatUserConfig, task } from "hardhat/config";
+import "./tasks/computeCreate2Address";
 
 let accounts;
 if (process.env.PRIVATE_KEY) {
@@ -30,7 +30,7 @@ const config: HardhatUserConfig = {
     solidity: {
         compilers: [
             {
-                version: "0.8.18",
+                version: "0.8.23",
                 settings: {
                     optimizer: {
                         enabled: true,

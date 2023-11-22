@@ -1,9 +1,14 @@
 {
-  "name": "hardhat_foundation",
-  "version": "2.0.0",
-  "description": "",
+  "name": "network-data-vault",
+  "version": "1.0.0",
+  "description": "A Solidity smart contract named UniversalStorage that provides functionalities to store and retrieve data.",
   "keywords": [
-    "hardhat"
+    "Solidity",
+    "Smart Contract",
+    "UniversalStorage",
+    "Data Storage",
+    "Blockchain",
+    "Ethereum"
   ],
   "author": "TheGreatHB <hb@thegreathb.com>",
   "license": "MIT",
@@ -16,7 +21,6 @@
     "pretty": "prettier -w --plugin=prettier-plugin-solidity contracts/**/*.sol && prettier -w test/**/*.ts && prettier -w scripts/**/*.ts"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-ignition": "^0.11.2",
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.3.1",
